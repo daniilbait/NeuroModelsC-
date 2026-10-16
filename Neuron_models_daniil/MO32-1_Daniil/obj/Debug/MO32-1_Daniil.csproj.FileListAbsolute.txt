@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Neuron_models_daniil\MO32-1_Daniil\bin\Debug\MO32-1_Daniil.exe.config
+C:\Users\User\source\repos\Neuron_models_daniil\MO32-1_Daniil\bin\Debug\MO32-1_Daniil.exe
+C:\Users\User\source\repos\Neuron_models_daniil\MO32-1_Daniil\bin\Debug\MO32-1_Daniil.pdb
+C:\Users\User\source\repos\Neuron_models_daniil\MO32-1_Daniil\obj\Debug\MO32-1_Daniil.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Neuron_models_daniil\MO32-1_Daniil\obj\Debug\MO32_1_Daniil.FormMain.resources
+C:\Users\User\source\repos\Neuron_models_daniil\MO32-1_Daniil\obj\Debug\MO32_1_Daniil.Properties.Resources.resources
+C:\Users\User\source\repos\Neuron_models_daniil\MO32-1_Daniil\obj\Debug\MO32-1_Daniil.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Neuron_models_daniil\MO32-1_Daniil\obj\Debug\MO32-1_Daniil.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Neuron_models_daniil\MO32-1_Daniil\obj\Debug\MO32-1_Daniil.exe
+C:\Users\User\source\repos\Neuron_models_daniil\MO32-1_Daniil\obj\Debug\MO32-1_Daniil.pdb
+C:\Users\User\source\repos\Neuron_models_daniil\MO32-1_Daniil\obj\Debug\MO32-1_Daniil.exe.config
