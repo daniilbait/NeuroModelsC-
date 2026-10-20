@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace MO32_1_Daniil.NeuroNet
@@ -45,7 +46,7 @@ namespace MO32_1_Daniil.NeuroNet
             else
             {
                 Directory.CreateDirectory(pathDirWeights);
-                Weights = WeightInitialize(MemoryMode.GET, pathFileWeights);
+                Weights = WeightInitialize(MemoryMode.INIT, pathFileWeights);
             }
 
             for(int i=0;i<non;i++)
@@ -124,18 +125,19 @@ namespace MO32_1_Daniil.NeuroNet
                             sum += tmpArr[j]; //Проверка СрЗнач=0
                         }
                         tmpShift = sum / (numofprevneurons + 1);
-                        for (int j = 0; j < numofprevneurons + 1; i++) 
+                        for (int j = 0; j < numofprevneurons + 1; j++) 
                         {
                             tmpArr[j] -= tmpShift;
                         }
+                        tmpStrWeights[i] = string.Join(";", tmpArr.Select(w => w.ToString(System.Globalization.CultureInfo.InvariantCulture)));
                     }
                     File.WriteAllLines(path, tmpStrWeights);
+
                     break;
             }
             return weights;
         }
-
-
+        // Асбтрактные классы для наследования
         abstract public void Recognize(Network net, Layer nextLayer);
         abstract public double[] BackwardPass(double[] stuff);
 

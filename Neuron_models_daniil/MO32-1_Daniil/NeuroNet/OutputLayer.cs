@@ -4,7 +4,6 @@
     {
         public OutputLayer(int non, int nopn, NeuronType nt, string type) : base(non, nopn, nt, type) { }
 
-
         // Прямой проход
         public override void Recognize(Network net, Layer nextLayer)
         {
