@@ -46,6 +46,9 @@
             this.numeric_values_output = new System.Windows.Forms.NumericUpDown();
             this.save_studying_material_button = new System.Windows.Forms.Button();
             this.save_test_material_button = new System.Windows.Forms.Button();
+            this.label_output = new System.Windows.Forms.Label();
+            this.label_probability = new System.Windows.Forms.Label();
+            this.button_recognize = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_values_output)).BeginInit();
             this.SuspendLayout();
             // 
@@ -276,12 +279,46 @@
             this.save_test_material_button.UseVisualStyleBackColor = true;
             this.save_test_material_button.Click += new System.EventHandler(this.save_test_material_button_Click);
             // 
+            // label_output
+            // 
+            this.label_output.AutoSize = true;
+            this.label_output.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_output.Location = new System.Drawing.Point(342, 20);
+            this.label_output.Name = "label_output";
+            this.label_output.Size = new System.Drawing.Size(151, 82);
+            this.label_output.TabIndex = 18;
+            this.label_output.Text = "Out";
+            // 
+            // label_probability
+            // 
+            this.label_probability.AutoSize = true;
+            this.label_probability.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_probability.Location = new System.Drawing.Point(535, 50);
+            this.label_probability.Name = "label_probability";
+            this.label_probability.Size = new System.Drawing.Size(259, 46);
+            this.label_probability.TabIndex = 19;
+            this.label_probability.Text = "Вероятность";
+            // 
+            // button_recognize
+            // 
+            this.button_recognize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_recognize.Location = new System.Drawing.Point(98, 431);
+            this.button_recognize.Name = "button_recognize";
+            this.button_recognize.Size = new System.Drawing.Size(160, 60);
+            this.button_recognize.TabIndex = 20;
+            this.button_recognize.Text = "Распознать";
+            this.button_recognize.UseVisualStyleBackColor = true;
+            this.button_recognize.Click += new System.EventHandler(this.button_recognize_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(337, 487);
+            this.ClientSize = new System.Drawing.Size(830, 487);
+            this.Controls.Add(this.button_recognize);
+            this.Controls.Add(this.label_probability);
+            this.Controls.Add(this.label_output);
             this.Controls.Add(this.save_test_material_button);
             this.Controls.Add(this.save_studying_material_button);
             this.Controls.Add(this.numeric_values_output);
@@ -302,9 +339,9 @@
             this.Controls.Add(this.matrix_digit_button_1);
             this.Name = "FormMain";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numeric_values_output)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -328,6 +365,9 @@
         private System.Windows.Forms.NumericUpDown numeric_values_output;
         private System.Windows.Forms.Button save_studying_material_button;
         private System.Windows.Forms.Button save_test_material_button;
+        private System.Windows.Forms.Label label_output;
+        private System.Windows.Forms.Label label_probability;
+        private System.Windows.Forms.Button button_recognize;
     }
 }
 
