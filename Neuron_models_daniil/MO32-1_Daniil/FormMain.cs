@@ -10,13 +10,13 @@ namespace MO32_1_Daniil
     public partial class FormMain : Form
     {
         private double[] inputPixel;
-        private Network network;
+        private Network network; // ЕНТО ДОПИСАТЬ
         public FormMain()
         {
             InitializeComponent();
 
             inputPixel = new double[15];
-            network = new Network();
+            network = new Network(); // ЕНТО ДОПИСАТЬ
         }
 
         private void matrix_digit_button_Click(object sender, EventArgs e)
@@ -58,6 +58,13 @@ namespace MO32_1_Daniil
             network.ForwardPass(inputPixel);
             label_output.Text = network.Fact.ToList().IndexOf(network.Fact.Max()).ToString();
             label_probability.Text = (100 * network.Fact.Max()).ToString("0.00") + " %";
+        }
+
+        private void button_train_Click(object sender, EventArgs e)
+        {
+            network.Train(network);
+            MessageBox.Show("Обучение успешно завершено.", "Информация",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

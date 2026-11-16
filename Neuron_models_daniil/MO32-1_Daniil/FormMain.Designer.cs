@@ -49,6 +49,7 @@
             this.label_output = new System.Windows.Forms.Label();
             this.label_probability = new System.Windows.Forms.Label();
             this.button_recognize = new System.Windows.Forms.Button();
+            this.button_train = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_values_output)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             this.matrix_digit_button_1.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_1.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_1.Location = new System.Drawing.Point(83, 20);
+            this.matrix_digit_button_1.Location = new System.Drawing.Point(37, 147);
             this.matrix_digit_button_1.Name = "matrix_digit_button_1";
             this.matrix_digit_button_1.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_1.TabIndex = 0;
@@ -71,7 +72,7 @@
             this.matrix_digit_button_2.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_2.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_2.Location = new System.Drawing.Point(154, 20);
+            this.matrix_digit_button_2.Location = new System.Drawing.Point(108, 147);
             this.matrix_digit_button_2.Name = "matrix_digit_button_2";
             this.matrix_digit_button_2.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_2.TabIndex = 1;
@@ -84,7 +85,7 @@
             this.matrix_digit_button_3.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_3.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_3.Location = new System.Drawing.Point(223, 20);
+            this.matrix_digit_button_3.Location = new System.Drawing.Point(177, 147);
             this.matrix_digit_button_3.Name = "matrix_digit_button_3";
             this.matrix_digit_button_3.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_3.TabIndex = 2;
@@ -97,7 +98,7 @@
             this.matrix_digit_button_6.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_6.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_6.Location = new System.Drawing.Point(223, 76);
+            this.matrix_digit_button_6.Location = new System.Drawing.Point(177, 203);
             this.matrix_digit_button_6.Name = "matrix_digit_button_6";
             this.matrix_digit_button_6.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_6.TabIndex = 5;
@@ -110,7 +111,7 @@
             this.matrix_digit_button_5.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_5.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_5.Location = new System.Drawing.Point(154, 76);
+            this.matrix_digit_button_5.Location = new System.Drawing.Point(108, 203);
             this.matrix_digit_button_5.Name = "matrix_digit_button_5";
             this.matrix_digit_button_5.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_5.TabIndex = 4;
@@ -123,7 +124,7 @@
             this.matrix_digit_button_4.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_4.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_4.Location = new System.Drawing.Point(83, 76);
+            this.matrix_digit_button_4.Location = new System.Drawing.Point(37, 203);
             this.matrix_digit_button_4.Name = "matrix_digit_button_4";
             this.matrix_digit_button_4.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_4.TabIndex = 3;
@@ -136,7 +137,7 @@
             this.matrix_digit_button_9.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_9.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_9.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_9.Location = new System.Drawing.Point(223, 132);
+            this.matrix_digit_button_9.Location = new System.Drawing.Point(177, 259);
             this.matrix_digit_button_9.Name = "matrix_digit_button_9";
             this.matrix_digit_button_9.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_9.TabIndex = 8;
@@ -149,7 +150,7 @@
             this.matrix_digit_button_8.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_8.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_8.Location = new System.Drawing.Point(154, 132);
+            this.matrix_digit_button_8.Location = new System.Drawing.Point(108, 259);
             this.matrix_digit_button_8.Name = "matrix_digit_button_8";
             this.matrix_digit_button_8.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_8.TabIndex = 7;
@@ -162,7 +163,7 @@
             this.matrix_digit_button_7.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_7.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_7.Location = new System.Drawing.Point(83, 132);
+            this.matrix_digit_button_7.Location = new System.Drawing.Point(37, 259);
             this.matrix_digit_button_7.Name = "matrix_digit_button_7";
             this.matrix_digit_button_7.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_7.TabIndex = 6;
@@ -175,7 +176,7 @@
             this.matrix_digit_button_12.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_12.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_12.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_12.Location = new System.Drawing.Point(223, 188);
+            this.matrix_digit_button_12.Location = new System.Drawing.Point(177, 315);
             this.matrix_digit_button_12.Name = "matrix_digit_button_12";
             this.matrix_digit_button_12.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_12.TabIndex = 11;
@@ -188,7 +189,7 @@
             this.matrix_digit_button_11.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_11.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_11.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_11.Location = new System.Drawing.Point(154, 188);
+            this.matrix_digit_button_11.Location = new System.Drawing.Point(108, 315);
             this.matrix_digit_button_11.Name = "matrix_digit_button_11";
             this.matrix_digit_button_11.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_11.TabIndex = 10;
@@ -201,7 +202,7 @@
             this.matrix_digit_button_10.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_10.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_10.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_10.Location = new System.Drawing.Point(83, 188);
+            this.matrix_digit_button_10.Location = new System.Drawing.Point(37, 315);
             this.matrix_digit_button_10.Name = "matrix_digit_button_10";
             this.matrix_digit_button_10.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_10.TabIndex = 9;
@@ -214,7 +215,7 @@
             this.matrix_digit_button_15.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_15.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_15.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_15.Location = new System.Drawing.Point(223, 244);
+            this.matrix_digit_button_15.Location = new System.Drawing.Point(177, 371);
             this.matrix_digit_button_15.Name = "matrix_digit_button_15";
             this.matrix_digit_button_15.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_15.TabIndex = 14;
@@ -227,7 +228,7 @@
             this.matrix_digit_button_14.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_14.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_14.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_14.Location = new System.Drawing.Point(154, 244);
+            this.matrix_digit_button_14.Location = new System.Drawing.Point(108, 371);
             this.matrix_digit_button_14.Name = "matrix_digit_button_14";
             this.matrix_digit_button_14.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_14.TabIndex = 13;
@@ -240,7 +241,7 @@
             this.matrix_digit_button_13.Cursor = System.Windows.Forms.Cursors.Default;
             this.matrix_digit_button_13.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.matrix_digit_button_13.FlatAppearance.BorderSize = 2;
-            this.matrix_digit_button_13.Location = new System.Drawing.Point(83, 244);
+            this.matrix_digit_button_13.Location = new System.Drawing.Point(37, 371);
             this.matrix_digit_button_13.Name = "matrix_digit_button_13";
             this.matrix_digit_button_13.Size = new System.Drawing.Size(50, 50);
             this.matrix_digit_button_13.TabIndex = 12;
@@ -249,7 +250,7 @@
             // 
             // numeric_values_output
             // 
-            this.numeric_values_output.Location = new System.Drawing.Point(154, 310);
+            this.numeric_values_output.Location = new System.Drawing.Point(108, 435);
             this.numeric_values_output.Maximum = new decimal(new int[] {
             9,
             0,
@@ -261,7 +262,7 @@
             // 
             // save_studying_material_button
             // 
-            this.save_studying_material_button.Location = new System.Drawing.Point(83, 351);
+            this.save_studying_material_button.Location = new System.Drawing.Point(37, 467);
             this.save_studying_material_button.Name = "save_studying_material_button";
             this.save_studying_material_button.Size = new System.Drawing.Size(190, 34);
             this.save_studying_material_button.TabIndex = 16;
@@ -271,7 +272,7 @@
             // 
             // save_test_material_button
             // 
-            this.save_test_material_button.Location = new System.Drawing.Point(83, 391);
+            this.save_test_material_button.Location = new System.Drawing.Point(37, 507);
             this.save_test_material_button.Name = "save_test_material_button";
             this.save_test_material_button.Size = new System.Drawing.Size(190, 34);
             this.save_test_material_button.TabIndex = 17;
@@ -283,7 +284,7 @@
             // 
             this.label_output.AutoSize = true;
             this.label_output.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_output.Location = new System.Drawing.Point(342, 20);
+            this.label_output.Location = new System.Drawing.Point(53, 14);
             this.label_output.Name = "label_output";
             this.label_output.Size = new System.Drawing.Size(151, 82);
             this.label_output.TabIndex = 18;
@@ -293,7 +294,7 @@
             // 
             this.label_probability.AutoSize = true;
             this.label_probability.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_probability.Location = new System.Drawing.Point(535, 50);
+            this.label_probability.Location = new System.Drawing.Point(4, 96);
             this.label_probability.Name = "label_probability";
             this.label_probability.Size = new System.Drawing.Size(259, 46);
             this.label_probability.TabIndex = 19;
@@ -302,7 +303,7 @@
             // button_recognize
             // 
             this.button_recognize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_recognize.Location = new System.Drawing.Point(98, 431);
+            this.button_recognize.Location = new System.Drawing.Point(55, 547);
             this.button_recognize.Name = "button_recognize";
             this.button_recognize.Size = new System.Drawing.Size(160, 60);
             this.button_recognize.TabIndex = 20;
@@ -310,12 +311,24 @@
             this.button_recognize.UseVisualStyleBackColor = true;
             this.button_recognize.Click += new System.EventHandler(this.button_recognize_Click);
             // 
+            // button_train
+            // 
+            this.button_train.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_train.Location = new System.Drawing.Point(55, 613);
+            this.button_train.Name = "button_train";
+            this.button_train.Size = new System.Drawing.Size(160, 60);
+            this.button_train.TabIndex = 21;
+            this.button_train.Text = "Обучить";
+            this.button_train.UseVisualStyleBackColor = true;
+            this.button_train.Click += new System.EventHandler(this.button_train_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(830, 487);
+            this.ClientSize = new System.Drawing.Size(267, 689);
+            this.Controls.Add(this.button_train);
             this.Controls.Add(this.button_recognize);
             this.Controls.Add(this.label_probability);
             this.Controls.Add(this.label_output);
@@ -368,6 +381,7 @@
         private System.Windows.Forms.Label label_output;
         private System.Windows.Forms.Label label_probability;
         private System.Windows.Forms.Button button_recognize;
+        private System.Windows.Forms.Button button_train;
     }
 }
 
