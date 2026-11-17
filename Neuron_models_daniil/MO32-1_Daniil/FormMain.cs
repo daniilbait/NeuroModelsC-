@@ -10,13 +10,13 @@ namespace MO32_1_Daniil
     public partial class FormMain : Form
     {
         private double[] inputPixel;
-        private Network network; // ЕНТО ДОПИСАТЬ
+        private Network network;
         public FormMain()
         {
             InitializeComponent();
 
             inputPixel = new double[15];
-            network = new Network(); // ЕНТО ДОПИСАТЬ
+            network = new Network();
         }
 
         private void matrix_digit_button_Click(object sender, EventArgs e)
